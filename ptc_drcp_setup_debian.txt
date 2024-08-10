@@ -54,7 +54,7 @@ sudo service redis-server status
 
 
 or
-sudo -u celeryuser /home/repos/ptc_drcp/backend/venv/bin/celery -A core worker --loglevel=info
+sudo -u celeryuser /home/repos/ptc_temp/backend/venv/bin/celery -A core worker --loglevel=info
 
 pip install redis
 pip install kombu celery
@@ -878,6 +878,8 @@ ALTER USER postgres PASSWORD 'password';
 
 
 
+git config --global user.name "sk99-portfolio"
+git config --global user.email "stephenkryworuchka@outlook.com"
 
 
 
@@ -888,7 +890,8 @@ ALTER USER postgres PASSWORD 'password';
 
 
 
-
+"xdotool key ctrl+c"
+b:1
 
 
 
